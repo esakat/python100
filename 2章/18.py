@@ -8,7 +8,7 @@ dic = dict(zip(keys,values))
 sort_dic = sorted(dic.items(), key=lambda x:x[1])
 
 for k,v in sort_dic:
-    print(k)
+    print(k,end='')
 
 # 確認用コマンド
 # $ cat hightemp.txt |  sort -k3

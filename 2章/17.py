@@ -7,6 +7,7 @@ for c in col1:
     if c not in output:
         output.append(c)
 
-print(output)
+# リスト表示だったので、\nで連結
+print('\n'.join(output))
 
 # $ cat hightemp.txt | cut -f 1 | sort -k1  | uniq
